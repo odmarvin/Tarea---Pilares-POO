@@ -14,7 +14,7 @@ class Program
         carrito.AgregarProducto(producto2);
 
         // Crear cliente
-        Cliente cliente = new Cliente("Marvin Oliva", "marvin@example.com");
+        Cliente cliente = new Cliente("Marvin Oliva", "marvin@correo.com");
 
         // Crear orden con cliente y carrito
         Orden orden = new Orden(cliente, carrito);
